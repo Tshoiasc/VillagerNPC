@@ -206,7 +206,7 @@ public class EventHandlers implements Listener {
                     } else {
                         if (AllOption.DISCOVER_REWARD != 0) {
                             Bukkit.getServer().broadcastMessage("§e§l[§4公告§e§l] §f§l： §5§l玩家§e§l(" + e.getPlayer().getName() + ")§5§l发现了 §e§l一只野生的流浪商人 §5§l奖励" + AllOption.DISCOVER_REWARD + "§5§l元巨款");
-                            VaultOperate.give(e.getPlayer().getName(), AllOption.DISCOVER_REWARD);
+                            if(VaultOperate.isSupportVault())VaultOperate.give(e.getPlayer().getName(), AllOption.DISCOVER_REWARD);
                         } else {
                             e.getPlayer().sendMessage(PlayerUtil.sendNormalMessage("服务器禁止与野生商人交易"));
                             e.setCancelled(true);

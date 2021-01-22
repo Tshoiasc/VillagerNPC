@@ -57,7 +57,7 @@ public class AllTraderListUI extends UI_NPC {
                             i++;
                             continue;
                         }
-                        v.getEditui(null).delete();
+                        //v.getEditui(null).delete();
                         TraderObjectStorage.TRADER.remove(TraderObjectStorage.getVillagerObjectStorage((WanderingTrader) e));
                     }
                     e.remove();

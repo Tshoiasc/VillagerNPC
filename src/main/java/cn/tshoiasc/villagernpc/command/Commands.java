@@ -34,8 +34,8 @@ public class Commands implements CommandExecutor {
         }
         if (args.length == 0) {
             p.sendMessage("-----------------§7[§e§lNPC]§f---------------------");
-            p.sendMessage("§e§l管理员指令: /vnpc admin");
-            p.sendMessage("§e§l管理员指令: /vnpc reload");
+            p.sendMessage("§e§l管理界面: /vnpc admin");
+            p.sendMessage("§e§l插件重载: /vnpc reload");
             p.sendMessage("--------------------------------------------");
             return true;
         }

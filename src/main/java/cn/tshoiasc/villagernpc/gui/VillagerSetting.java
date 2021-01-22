@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VillagerSetting implements Listener {
-    private final static Inventory GUI = Bukkit.createInventory(null, InventoryType.HOPPER, "§e§l[村民NPC]");
+    private final static Inventory GUI = Bukkit.createInventory(null, InventoryType.HOPPER, "§e§l[NPC]");
 
     /**
      * 村民NPC界面的初始化
@@ -58,7 +58,7 @@ public class VillagerSetting implements Listener {
         ItemMeta Button_All_Meta = Button_All.getItemMeta();
         Button_All_Meta.setDisplayName("§c§l全服设置");
         List<String> Button_All_Lore = new ArrayList<>();
-        Button_All_Lore.add("§4左键--§b进入NPC设置界面");
+        Button_All_Lore.add("§4左键--§b进入全局设置界面");
         Button_All_Lore.add("§5右键--§7无效");
         Button_All_Meta.setLore(Button_All_Lore);
         Button_All.setItemMeta(Button_All_Meta);
