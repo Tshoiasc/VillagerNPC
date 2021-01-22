@@ -1,0 +1,10 @@
+#玩家是否可以与野生商人交易
+wild_can_trade: false
+#玩家发现野生商人的奖励,0代表不奖励，如果该项不为0，上面的设置自动关闭。
+discover_wild_reward: 0
+#有生物攻击NPC的悬赏金,0为不进行悬赏
+help_kill_reward: 0
+#世界是否可以生成流浪商人
+world_spawn: false
+#刷怪蛋是否可以生成流浪商人
+egg_spawn: false

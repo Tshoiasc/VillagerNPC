@@ -1,0 +1,8 @@
+name: VillagerNPC
+version: ${project.version}
+main: cn.tshoiasc.villagernpc.VillagerNPC
+api-version: 1.16
+authors: [ Tshoiasc ]
+depend: [ Vault ]
+commands:
+  vnpc:
